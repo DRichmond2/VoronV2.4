@@ -39,7 +39,7 @@
             "map": "T1",
             "load": true,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "ASA",
             "density": 1.14,
@@ -47,12 +47,12 @@
             "empty_spool_weight": 147.0,
             "spool_id": 44,
             "color": "#ab0101",
-            "weight": 818.1335992919933,
+            "weight": 795.7700597337782,
             "extruder_temp": 260,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Ready",
+            "filament_status_led": "#00cc00",
+            "status": "None",
             "dist_hub": 120.0,
             "td1_data": {}
         },
@@ -67,7 +67,7 @@
             "map": "T2",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.05,
@@ -75,12 +75,12 @@
             "empty_spool_weight": 150.0,
             "spool_id": 47,
             "color": "#ffffff",
-            "weight": 547.4416350781695,
+            "weight": 532.123947394905,
             "extruder_temp": 260,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "None",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 115.0,
             "td1_data": {}
         },
@@ -172,13 +172,13 @@
         }
     },
     "system": {
-        "current_load": "lane2",
+        "current_load": "lane3",
         "num_units": 2,
         "num_lanes": 6,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane2"
+                "lane_loaded": "lane3"
             }
         },
         "bypass": {
