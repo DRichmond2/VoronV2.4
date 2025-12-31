@@ -40,7 +40,7 @@
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": false,
+            "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.04,
             "diameter": 1.75,
@@ -52,7 +52,7 @@
             "runout_lane": null,
             "filament_status": "Ready",
             "filament_status_led": "#00cc00",
-            "status": "Tool Loading",
+            "status": "Ejecting",
             "dist_hub": 120.0,
             "td1_data": {}
         },
