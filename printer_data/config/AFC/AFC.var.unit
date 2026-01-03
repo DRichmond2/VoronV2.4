@@ -39,7 +39,7 @@
             "map": "T1",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.05,
@@ -47,12 +47,12 @@
             "empty_spool_weight": 240.0,
             "spool_id": 62,
             "color": "#4b0c0c",
-            "weight": 991.720483745542,
+            "weight": 983.9607350547459,
             "extruder_temp": 260,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "None",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 120.0,
             "td1_data": {}
         },
@@ -103,7 +103,7 @@
             "empty_spool_weight": 240.0,
             "spool_id": 17,
             "color": "#435a83",
-            "weight": 328.4003728362794,
+            "weight": 327.1849942386905,
             "extruder_temp": 260,
             "runout_lane": null,
             "filament_status": "Ready",
@@ -123,9 +123,9 @@
             "buffer_status": "Trailing",
             "lane": 1,
             "map": "T4",
-            "load": true,
+            "load": false,
             "prep": true,
-            "tool_loaded": true,
+            "tool_loaded": false,
             "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.05,
@@ -133,12 +133,12 @@
             "empty_spool_weight": 240.0,
             "spool_id": 61,
             "color": "#000000",
-            "weight": 850.7493445834261,
+            "weight": 845.6246921788725,
             "extruder_temp": 260,
             "runout_lane": null,
-            "filament_status": "In Tool",
-            "filament_status_led": "#0000ff",
-            "status": "Tooled",
+            "filament_status": "Prep",
+            "filament_status_led": "#ffffff",
+            "status": "Ejecting",
             "dist_hub": 70.0,
             "td1_data": {}
         },
@@ -172,13 +172,13 @@
         }
     },
     "system": {
-        "current_load": "lane5",
+        "current_load": "lane2",
         "num_units": 2,
         "num_lanes": 6,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": "lane5"
+                "lane_loaded": "lane2"
             }
         },
         "bypass": {
