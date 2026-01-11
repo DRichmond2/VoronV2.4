@@ -166,7 +166,7 @@
             "runout_lane": null,
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "None",
+            "status": "Ejecting",
             "dist_hub": 65.0,
             "td1_data": {}
         }
