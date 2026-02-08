@@ -153,7 +153,7 @@
             "map": "T0",
             "load": true,
             "prep": true,
-            "tool_loaded": false,
+            "tool_loaded": true,
             "loaded_to_hub": true,
             "material": "PLA",
             "density": 1.24,
@@ -164,21 +164,21 @@
             "weight": 279.82421838004177,
             "extruder_temp": 220,
             "runout_lane": null,
-            "filament_status": "Ready",
-            "filament_status_led": "#00cc00",
-            "status": "Tool Loaded",
+            "filament_status": "In Tool",
+            "filament_status_led": "#0000ff",
+            "status": "Tooled",
             "dist_hub": 60.0,
             "td1_data": {}
         }
     },
     "system": {
-        "current_load": null,
+        "current_load": "lane6",
         "num_units": 2,
         "num_lanes": 6,
         "num_extruders": 1,
         "extruders": {
             "extruder": {
-                "lane_loaded": ""
+                "lane_loaded": "lane6"
             }
         },
         "bypass": {
