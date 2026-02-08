@@ -68,7 +68,7 @@
             "load": true,
             "prep": true,
             "tool_loaded": false,
-            "loaded_to_hub": false,
+            "loaded_to_hub": true,
             "material": "ABS",
             "density": 1.04,
             "diameter": 1.75,
