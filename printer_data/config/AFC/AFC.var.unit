@@ -166,8 +166,8 @@
             "runout_lane": null,
             "filament_status": "Prep",
             "filament_status_led": "#ffffff",
-            "status": "None",
-            "dist_hub": 60.0,
+            "status": "Ejecting",
+            "dist_hub": 55.0,
             "td1_data": {}
         }
     },
